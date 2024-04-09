@@ -1,7 +1,16 @@
 .circle {
+    position: relative;
     border-radius: 50%;
-    border: 3px solid blue;
+    border: 3px solid black;
     height: 500px;
     width: 500px;
     background: linear-gradient(to bottom right, blue, purple);
+    margin-left: 50px;
+}
+
+#overlay {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-size: xx-large;
 }
