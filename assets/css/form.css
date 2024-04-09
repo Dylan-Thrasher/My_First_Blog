@@ -1,0 +1,7 @@
+.circle {
+    border-radius: 50%;
+    border: 3px solid blue;
+    height: 500px;
+    width: 500px;
+    background: linear-gradient(to bottom right, blue, purple);
+}
