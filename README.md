@@ -1,5 +1,5 @@
 # My_First_Blog
-A blog for people to enter brief stories that they'd like to share with others and also want to see others posts. 
+A blog for people to enter brief stories that they wouldn't like to share with others and also want to see previous posts they've made, similar to a localized digital journal. 
 
 ## Description
 This project was created in order to provide practice for storing information locally and posting the information in another webpage, while demonstrating the efficiency of having separate files for repeated code that can apply to multiple pages.
