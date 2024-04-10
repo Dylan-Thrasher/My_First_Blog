@@ -33,6 +33,7 @@ color: light-dark(black, white);
     border: 2px solid blue;
     padding: 5px;
     background-color: lightblue;
+    cursor: pointer;
 }
 
 main{
