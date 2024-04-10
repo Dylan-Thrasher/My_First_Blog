@@ -1,0 +1,23 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+color: light-dark(black, white);
+border-color: light-dark(black, white);
+}
+
+header {
+    display: flex;
+    height: 50px;
+    align-content: center;
+    align-items: center;
+    }
+
+#switch {
+    border-radius: 10%;
+    border: 2px solid blue;
+    padding: 5px;
+    background-color: lightblue;
+    cursor: pointer;
+}
