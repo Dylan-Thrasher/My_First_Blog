@@ -15,7 +15,9 @@
     font-size: xx-large;
 }
 
-
+:root {
+    color-scheme: light dark;
+}
 
 header {
 display: flex;
@@ -23,22 +25,26 @@ height: 50px;
 align-content: center;
 align-items: center;
 justify-content: flex-end;
+color: light-dark(black, white);
 }
 
 #switch {
     border-radius: 10%;
     border: 2px solid blue;
     padding: 5px;
+    background-color: lightblue;
 }
 
 main{
     display: flex;
     align-items: center;
-    border: 5px solid black;
+    border: 5px solid;
+
 }
 
 aside{
-    border-right: 5px solid black;
+    border-right: 5px solid;
+    border-color: light-dark(black, white);
     width: 50%;
 }
 
@@ -49,6 +55,7 @@ article {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: light-dark(black, white);
 }
 
 form {
@@ -58,6 +65,7 @@ form {
     justify-content: center;
     width: 100%;
     height: 100%;
+    color: light-dark(black, white);
 }
 
 input, textarea {
