@@ -12,13 +12,24 @@
     <header>
         <a id="switch">Click to switch to Light/Dark</a>
     </header>
+    <main>
 <!-- Aside section to contain photo -->
     <aside>
 <div class="circle"></div>
 <p id="overlay">My First Blog</p>
     </aside>
-    <!-- Main section to enter the fields -->
-    <main>
+    <!-- Article to enter the fields -->
+    <article class="form">
+        <form action="./blog.html">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username"> <br>
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title"><br>
+            <label for="content">Content</label>
+            <textarea type="text" name="content" id="content" cols="20" rows="5"></textarea>
+            <input type="submit" id="submit">
+        </form>
+    </article>
 
     </main>
 

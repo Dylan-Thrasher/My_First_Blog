@@ -5,7 +5,7 @@
     height: 500px;
     width: 500px;
     background: linear-gradient(to bottom right, blue, purple);
-    margin-left: 50px;
+    margin: 50px;
 }
 
 #overlay {
@@ -13,4 +13,48 @@
     top: 200px;
     left: 200px;
     font-size: xx-large;
+}
+
+
+
+header {
+display: flex;
+height: 50px;
+border-bottom: 5px solid black;
+align-content: center;
+align-items: center;
+justify-content: flex-end;
+}
+
+#switch {
+    border-radius: 10%;
+    border: 2px solid blue;
+    padding: 5px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside{
+    border-right: 5px solid black;
+    width: 50%;
+}
+
+article {
+    border-left: 5px solid black;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
