@@ -14,10 +14,16 @@ header {
     align-items: center;
     }
 
-#switch {
+
+a {
+    cursor: pointer;
     border-radius: 10%;
     border: 2px solid blue;
     padding: 5px;
-    background-color: lightblue;
-    cursor: pointer;
+    background-color: lightgreen;
+    text-decoration: none;
+}
+
+a:link {
+    color: light-dark(black, white);
 }

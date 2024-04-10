@@ -39,7 +39,7 @@ for (let i = 0; i < newContent.length; i++) {
 
 // append div to page
     post.append(div);
-}
+};
 }
 // check if blogposts are null
 displayPosts()
